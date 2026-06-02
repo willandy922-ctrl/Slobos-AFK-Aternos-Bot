@@ -2077,3 +2077,14 @@ addLog(
 addLog("=".repeat(50));
 
 createBot();
+bot.on("error", (e) => {
+  console.log("BOT ERROR:", e);
+});
+
+bot.on("kicked", (r) => {
+  console.log("KICKED:", r);
+});
+
+bot.on("end", (r) => {
+  console.log("END:", r);
+});
