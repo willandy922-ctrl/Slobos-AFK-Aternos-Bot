@@ -3,12 +3,12 @@
   "bot-account": {
     "username": "Slobot00",
     "password": "",
-    "type": "offline"
+    "type": "microsoft"
   },
   "server": {
     "ip": "bynum.aternos.me",
     "port": 26751,
-    "version": "1.21.11",
+    "version": "1.21",
     "try-creative": false
   },
   "position": {
@@ -29,12 +29,11 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 300,
       "messages": [
         "I'm a regular player",
         "Subscribe to Slobos!",
-        "I like to play Minecraft!"
-      ]
+        "I like to play Minecraft!" 
     },
     "chat-log": true,
     "auto-reconnect": true,
